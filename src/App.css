@@ -1,0 +1,128 @@
+header {
+  background-color: #1d2951;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-left: 130px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  display: flex;
+}
+
+nav li {
+  margin: 0 140px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+footer {
+    background-color: #1d2951 ;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+    margin-top:596px;
+    
+    
+  }
+  
+  footer h3 {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer1, .footer2, .footer3 {
+    width: 30%;
+    margin-left:60px;
+  }
+  
+  
+  .footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .App {
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+  }
+   
+  .label{
+    display: block;
+    font-size: larger;
+    color: white;
+    padding: 5px;
+  }
+   
+  .input{
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+    
+  }
+  .btn{
+    color: white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+  }
+   
+  .messages{
+    display: flex;
+    justify-content: center;
+  }
+   
+  .error{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    height: 50px;
+    padding: 5px;
+  }
+   
+  .success{
+    display: block;
+    background-color: lightblue;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    padding: 5px;
+  }
